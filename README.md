@@ -2,7 +2,7 @@
 
 This is a collection of date-time operations. It was developed to autofill date-time fields in HTML forms.
 
-It only works for field types of `date`, `time`, and `datetime-local`.
+It currently only works for field types of `date`, `time`, and `datetime-local`.
 
 ## Dependencies
 
@@ -23,7 +23,9 @@ The files in this set are as follows:
 | mpc_datetime.min.js | Minified version.
 | _invoke.js          | Example implementation code.
 
-## Recommended HTML Code
+## Implementation
+
+### Recommended HTML Code
 
 The script is class driven. The default classes are as follows:
 
@@ -43,8 +45,6 @@ To autofill a time field and have it update so it is always showing the current 
 ```
 
 You can use the same class for both operations, but keeping them separate helps to make the code self documenting.
-
-## Implementation
 
 ### Coding Example
 

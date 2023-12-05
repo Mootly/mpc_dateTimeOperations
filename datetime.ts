@@ -1,6 +1,8 @@
-/* --- Common Date and Time Functions ----------------------------------------- *
- * mpc_datetime 1.0.0
- * Copyright (c) 2023 Mootly Obviate -- See /LICENSE.md
+/** --- Common Date and Time Functions ---------------------------------------- *
+ * mpc_datetime
+ * @copyright 2017-2023 Mootly Obviate -- See /LICENSE.md
+ * @license   MIT
+ * @version   1.0.0
  * ---------------------------------------------------------------------------- *
  * Return current date and time formatted for HTML input fields.
  * Autoset date and time fields with specified class.
@@ -23,13 +25,13 @@
  *   datetime: new mpc_dateTimeOperations(),
  *   ...
  * };
- * let nowDate      = mpw.datetime.getDate();
- * let nowTime      = mpw.datetime.getTime();
- * let nowDateTime  = mpw.datetime.getDateTime();
- * let success      = mpw.datetime.autofill('all|date|time|datetime','classname');
- * let success      = mpw.datetime.countTime('time|datetime''classname');
+ * let nowDate      = mp.datetime.getDate();
+ * let nowTime      = mp.datetime.getTime();
+ * let nowDateTime  = mp.datetime.getDateTime();
+ * let success      = mp.datetime.autofill('all|date|time|datetime','classname');
+ * let success      = mp.datetime.countTime('time|datetime''classname');
  * --- Revision History ------------------------------------------------------- *
- * 2023-11-15 | Started typescript version.
+ * 2023-12-04 | Version 1.0.0 completed.
  * ---------------------------------------------------------------------------- */
 class mpc_dateTimeOperations {
   date              : string;
@@ -90,10 +92,10 @@ class mpc_dateTimeOperations {
   }
   countTime(type : string = 'time', target : string = 'counttime') {
     let cString     = '[class*='+target+']';
-    if (type == 'datetime') { 
+    if (type == 'datetime') {
       this.timeEl = document.querySelectorAll('input[type=datetime-local]'+cString);
       this.timeEl.forEach ((el)=>{ setInterval(() => { el.value = this.getDateTime(); }, 10*1000);});
-    } else { 
+    } else {
       this.timeEl = document.querySelectorAll('input[type=time]'+cString);
       this.timeEl.forEach ((el)=>{ setInterval(() => { el.value = this.getTime(); }, 10*1000);});
     }

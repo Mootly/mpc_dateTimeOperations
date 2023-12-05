@@ -1,6 +1,8 @@
-/* --- Common Date and Time Functions ----------------------------------------- *
- * mpc_datetime 1.0.0
- * Copyright (c) 2023 Mootly Obviate -- See /LICENSE.md
+/** --- Common Date and Time Functions ---------------------------------------- *
+ * mpc_datetime
+ * @copyright 2017-2023 Mootly Obviate -- See /LICENSE.md
+ * @license   MIT
+ * @version   1.0.0
  * ---------------------------------------------------------------------------- *
  * Return current date and time formatted for HTML input fields.
  * Autoset date and time fields with specified class.
@@ -29,7 +31,7 @@
  * let success      = mp.datetime.autofill('all|date|time|datetime','classname');
  * let success      = mp.datetime.countTime('time|datetime''classname');
  * --- Revision History ------------------------------------------------------- *
- * 2023-11-17 | Version 1.0.0 completed.
+ * 2023-12-04 | Version 1.0.0 completed.
  * ---------------------------------------------------------------------------- */
 class mpc_dateTimeOperations {
   constructor() {
