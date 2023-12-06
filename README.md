@@ -52,7 +52,7 @@ Use the `mp` namespace to help avoid collisions.
 
 ```js
 let mp = {
-  datetime: new mpc_dateTimeOperations()
+  datetime: new mpc_dateTimeOperations(),
   ⋮
 };
 ```
