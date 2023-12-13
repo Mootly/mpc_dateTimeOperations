@@ -97,4 +97,4 @@ class mpc_dateTimeOperations {
     return true;
   }
 }
-/* ---------------------------------------------------------------------------- */
+/*! --- Copyright (c) 2023 Mootly Obviate -- See /LICENSE.md ------------------ */
