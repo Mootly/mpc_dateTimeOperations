@@ -12,16 +12,16 @@ This was written in TypeScript and exported to ES2020.
 
 The files in this set are as follows:
 
-| path                    | description                                        |
-| ----------------------- | -------------------------------------------------- |
-| LICENSE.md              | License notice ( [MIT](https://mit-license.org) ). |
-| README.md               | This document.                                     |
-| mpc_datetime.ts         | The class definition in TypeScript.                |
-| mpc_datetime.js         | The class definition in ES6.                       |
-| mpc_datetime.min.js     | Minified version.                                  |
-| mpc_datetime.min.js.map | Map file.                                          |
-| tsconfig.json           | Example TS > ES2020 config setting.                |
-| _invoke.js              | Example implementation code.                       |
+| path                | description                                        |
+| ------------------- | -------------------------------------------------- |
+| LICENSE.md          | License notice ( [MIT](https://mit-license.org) ). |
+| README.md           | This document.                                     |
+| datetime.ts         | The class definition in TypeScript.                |
+| datetime.js         | The class definition in ES6.                       |
+| datetime.min.js     | Minified version.                                  |
+| datetime.min.js.map | Map file.                                          |
+| tsconfig.json       | Example TS > ES2020 config setting.                |
+| _invoke.js          | Example implementation code.                       |
 
 ## Installation
 
