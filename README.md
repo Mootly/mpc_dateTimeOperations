@@ -17,7 +17,7 @@ The files in this set are as follows:
 | LICENSE.md          | License notice ( [MIT](https://mit-license.org) ). |
 | README.md           | This document.                                     |
 | datetime.ts         | The class definition in TypeScript.                |
-| datetime.js         | The class definition in ES6.                       |
+| datetime.js         | The class definition in ES2020.                    |
 | datetime.min.js     | Minified version.                                  |
 | datetime.min.js.map | Map file.                                          |
 | tsconfig.json       | Example TS > ES2020 config setting.                |
