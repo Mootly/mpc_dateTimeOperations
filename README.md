@@ -1,5 +1,7 @@
 # MoosePlum Date-Time Operations
 
+Repo: [Mootly/mpc_dateTimeOperations](https://github.com/Mootly/mpc_dateTimeOperations)
+
 This is a collection of date-time operations. It was developed to autofill date-time fields in HTML forms.
 
 It currently only works for field types of `date`, `time`, and `datetime-local`.
@@ -14,6 +16,7 @@ The files in this set are as follows:
 
 | path                | description                                        |
 | ------------------- | -------------------------------------------------- |
+| CHANGELOG.md        | The changelog for this utility.                    |
 | LICENSE.md          | License notice ( [MIT](https://mit-license.org) ). |
 | README.md           | This document.                                     |
 | datetime.ts         | The class definition in TypeScript.                |
